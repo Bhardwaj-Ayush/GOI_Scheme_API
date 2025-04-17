@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the cleaned dataset
-schemes_df = pd.read_csv("C:/Users/bhard/Documents/Ayush/HackDUCS/Cleaned_GOI_Schemes.csv")
+schemes_df = pd.read_csv("./Cleaned_GOI_Schemes.csv")
 
 def recommend_schemes(user):
     age = user.get("age")
